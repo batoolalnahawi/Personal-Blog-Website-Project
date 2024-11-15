@@ -1,0 +1,24 @@
+/* Styling the figure container */
+figure {
+    padding:10px;
+    background-color: #FFFFF0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    text-align: center;
+}
+
+/* Styling the image inside the figure */
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Styling the caption */
+figcaption {
+    font-size: 14px;
+    font-style: italic;
+    color: #555;
+    margin-top: 8px;
+}

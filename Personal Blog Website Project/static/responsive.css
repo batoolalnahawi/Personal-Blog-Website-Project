@@ -1,0 +1,39 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .card {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .card-content {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        font-size: medium;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .card-content {
+        border-width: 3px;
+        padding: 8px;
+    }
+}
